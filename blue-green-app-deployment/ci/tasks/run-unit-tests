@@ -7,4 +7,5 @@ echo "before npm install"
 npm install
 echo "installation done"
 echo "Test starts"
+-mocha tests --recursive
 echo "Test succedd!!"
