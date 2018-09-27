@@ -1,0 +1,52 @@
+Configure ur acc : 
+
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+
+To add files :
+
+git add .
+
+To check status: 
+git status
+
+to ommit files added 
+
+git reset HEAD filename
+
+
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testRepoFile1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../../gitCommands.txt
+
+
+
+git add ../../gitCommands.txt
+
+pavithra@pavithra-PC MINGW64 ~/Documents/kalaiGit/sample_node/common/testRepo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testRepoFile1.txt
+        new file:   ../../gitCommands.txt
+
+
+
+ git diff --staged
+
+what is staged but not committed yet
